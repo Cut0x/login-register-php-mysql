@@ -62,8 +62,8 @@ if(isset($_REQUEST['btn_register'])) {
 
 		<link rel="stylesheet" type="text/css" href="../../files/css/footer.css">
 		<link rel="stylesheet" type="text/css" href="../../files/css/all.css">	
-<head>
-<body>
+	<head>
+	<body>
   <?php
     if(isset($errorMsg)) {
       foreach($errorMsg as $error) {

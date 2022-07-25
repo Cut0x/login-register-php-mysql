@@ -64,56 +64,56 @@ if(isset($_REQUEST['btn_register'])) {
 		<link rel="stylesheet" type="text/css" href="../../files/css/all.css">	
 	<head>
 	<body>
-  <?php
-    if(isset($errorMsg)) {
-      foreach($errorMsg as $error) {
-  ?>
-    <div>
-      <strong><?php echo $error; ?></strong>
-    </div>
-  <?php
-      }
-    }
-    if (isset($registerMsg)) {
-  ?>
-    <div>
-      <strong><?php echo $registerMsg; ?></strong>
-    </div>
-  <?php
-    }
-  ?>   
-  <h2>Page d'enregistrement</h2>
-  <form method="post" class="form-horizontal">
-    <div class="form-group">
-      <label class="col-sm-3 control-label">
-        Pseudo <span style="color: red;">*</span>
-      </label>
-      <div class="col-sm-6">
-        <input type="text" name="txt_username" class="form-control" placeholder="Entrez un pseudo" />
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="col-sm-3 control-label">Email <span style="color: red;">*</span></label>
-      <div class="col-sm-6">
-        <input type="text" name="txt_email" class="form-control" placeholder="Entrez une email" />
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="col-sm-3 control-label">Mot de passe <span style="color: red;">*</span></label>
-      <div class="col-sm-6">
-        <input type="password" name="txt_password" class="form-control" placeholder="Entre un mot de passe" />
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-3 col-sm-9 m-t-15">
-        <input type="submit"  name="btn_register" class="btn btn-primary "  value="Enregistrer">
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-offset-3 col-sm-9 m-t-15">
-        Tu as déjà un compte d'enregistré ? <a href="../login/"><p class="text-info">Connecte toi !</p></a>		
-      </div>
-    </div>
-    </form>
+  		<?php
+    			if(isset($errorMsg)) {
+      				foreach($errorMsg as $error) {
+  			?>
+    			<div>
+      				<strong><?php echo $error; ?></strong>
+    			</div>
+  		<?php
+      				}
+    			}
+    			if (isset($registerMsg)) {
+  		?>
+    		<div>
+      			<strong><?php echo $registerMsg; ?></strong>
+    		</div>
+  		<?php
+    			}
+  		?>   
+  		<h2>Page d'enregistrement</h2>
+  		<form method="post" class="form-horizontal">
+    			<div class="form-group">
+      				<label class="col-sm-3 control-label">
+        				Pseudo <span style="color: red;">*</span>
+      				</label>
+      				<div class="col-sm-6">
+        				<input type="text" name="txt_username" class="form-control" placeholder="Entrez un pseudo" />
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="col-sm-3 control-label">Email <span style="color: red;">*</span></label>
+      				<div class="col-sm-6">
+        				<input type="text" name="txt_email" class="form-control" placeholder="Entrez une email" />
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<label class="col-sm-3 control-label">Mot de passe <span style="color: red;">*</span></label>
+      				<div class="col-sm-6">
+        				<input type="password" name="txt_password" class="form-control" placeholder="Entre un mot de passe" />
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<div class="col-sm-offset-3 col-sm-9 m-t-15">
+        				<input type="submit"  name="btn_register" class="btn btn-primary "  value="Enregistrer">
+      				</div>
+    			</div>
+    			<div class="form-group">
+      				<div class="col-sm-offset-3 col-sm-9 m-t-15">
+        				Tu as déjà un compte d'enregistré ? <a href="../login/"><p class="text-info">Connecte toi !</p></a>		
+      				</div>
+    			</div>
+    		</form>
 	</body>
 </html>

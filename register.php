@@ -51,17 +51,7 @@ if(isset($_REQUEST['btn_register'])) {
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="initial-scale=1.0, maximum-scale=2.0">
-		<title>Bar Chat - Register</title>
-
-		<link rel="shortcut icon" href="../../files/images/favicon.ico" type="image/x-icon">
-
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-		<link rel="stylesheet" type="text/css" href="../../files/css/footer.css">
-		<link rel="stylesheet" type="text/css" href="../../files/css/all.css">	
+		<title>Register</title>
 	<head>
 	<body>
   		<?php

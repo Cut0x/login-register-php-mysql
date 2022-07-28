@@ -1,5 +1,5 @@
 <?php
-require_once "../../files/config.php";
+require_once "config.php";
 
 if(isset($_REQUEST['btn_register'])) {
 	$username = strip_tags($_REQUEST['txt_username']);

@@ -32,7 +32,7 @@ if(isset($_REQUEST['btn_register'])) {
 					
 					if ($insert_stmt->execute(array(':uname' =>$username, ':uemail' =>$new_email, ':upassword'=>$new_password))) {
 						$registerMsg='Succès de l\'enregistrement !';
-						header('location: ../login/');
+						header('location: login.php');
 					}
 				}
 			} catch(PDOException $e) {

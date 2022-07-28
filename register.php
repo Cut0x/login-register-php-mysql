@@ -101,7 +101,7 @@ if(isset($_REQUEST['btn_register'])) {
     			</div>
     			<div class="form-group">
       				<div class="col-sm-offset-3 col-sm-9 m-t-15">
-        				Tu as déjà un compte d'enregistré ? <a href="../login/"><p class="text-info">Connecte toi !</p></a>		
+        				Tu as déjà un compte d'enregistré ? <a href="login.php"><p class="text-info">Connecte toi !</p></a>		
       				</div>
     			</div>
     		</form>

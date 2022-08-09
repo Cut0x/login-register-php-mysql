@@ -24,6 +24,8 @@
 		<title>Home</title>
 	</head>
 	<body>
-		<h1>Coucou <?= $row['username'] ?> !</h1>
+		<h1>Coucou <?= $row['username'] ?> !</h1> 
+		<!-- ['username'] nous permet de récupérer l'information "username" qui est dans la base de donné par rapport
+		a l'identifiant de session -->
 	</body>
 </html>

@@ -1,6 +1,6 @@
 <?php
 $db_host="localhost";
-$db_user="root"; // nom d'utilisateur par défaut
+$db_user="root"; // nom d'utilisateur qui est, en local, par défaut root
 $db_password=""; // en général, en localhost, sur windows, il n'y a pas de mot de passe défini
 $db_name="tbl_user"; // Ici, mettez le nom de la base de donnée que vous avez créé (pour le tuto, c'est tbl_user)
 
